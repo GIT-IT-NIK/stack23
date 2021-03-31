@@ -42,6 +42,7 @@ section{
 .about .about-content,
 .speakers .speakers-content,
 .register .register-content,
+.teams .team_container,
 .contact .contact-content{
     display: flex;
     flex-wrap: wrap;
@@ -411,7 +412,7 @@ section .title::after{
     width: 100%;
     height: 100%;
     background: linear-gradient(#f00, #f0f);
-    clip-path: circle(20% at right 70%);
+    clip-path: circle(10% at 89% 90%);
 }
 
 .teams::after{
@@ -421,8 +422,8 @@ section .title::after{
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(#2196f3, #e91e63);
-    clip-path: circle(20% at 10% 10%);
+    background: linear-gradient(#2196f3, #b33d64);
+    clip-path: circle(13% at 10% 15%);
 }
 
 .teams .team_container{
@@ -526,189 +527,208 @@ section .title::after{
 
 
 .register{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    background: #161623;
     display: flex;
     align-items: center;
-    justify-content: center;
     min-height: 100vh;
-    padding: 20px;
-    background: #647df9;
-  }
-
-  .register .wrapper{
-    max-width: 1090px;
-    width: 100%;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-
-  .register .wrapper .table{
-    background: #fff;
-    width: calc(33% - 20px);
-    padding: 30px;
-    position: relative;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
-    border-radius: 15px;
-  }
-  .register .wrapper .price-section{
-    display: flex;
-    justify-content: center;
-  }
-  .register .wrapper .price-area{
-    height: 120px;
-    width: 120px;
-    border-radius: 50%;
-    padding: 2px;
-  }
-  .register .wrapper .price-area .inner-area{
-    height: 100%;
-    width: 100%;
-    border-radius: 50%;
-    border: 3px solid #fff;
-    line-height: 117px;
-    text-align: center;
-    color: #fff;
-    position: relative;
-  }
-
-  .register .wrapper .price-area .inner-area .text{
-    font-size: 25px;
-    font-weight: 400;
-    position: absolute;
-    top: -30px;
-    left: 17px;
-  }
-
-  .register .wrapper .price-area .inner-area .price{
-    font-size: 45px;
-    font-weight: 500;
-    margin-left: 16px;
-  }
-
-  .register .wrapper .table .package-name{
-    width: 100%;
-    height: 2px;
-    margin: 35px 0;
-    position: relative;
-  }
-
-  .register .wrapper .table .package-name::before{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    font-size: 25px;
-    font-weight: 500;
-    background: #fff;
-    padding: 0 15px;
-    transform: translate(-50%, -50%);
-  }
-
-  .register .wrapper .table .features li{
-    margin-bottom: 15px;
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-  }
-  .register .wrapper .features li .list-name{
-    font-size: 17px;
-    font-weight: 400;
-  }
-  .register .wrapper .features li .icon{
-    font-size: 15px;
-  }
-  .register .wrapper .features li .icon.check{
-    color: #2db94d;
-  }
-  .register .wrapper .features li .icon.cross{
-    color: #cd3241;
-  }
-  .register .wrapper .table .btn{
-    width: 100%;
-    display: flex;
-    margin-top: 35px;
-    justify-content: center;
-  }
-  .register .wrapper .table .btn button{
-    width: 80%;
-    height: 50px;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 500;
-    border: none;
-    outline: none;
-    border-radius: 25px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-  }
-  .register .wrapper .table .btn button:hover{
-    border-radius: 5px;
-  }
-  .register .wrapper .basic .features li::selection{
-    background: #ffd861;
-  }
-  .register .wrapper .basic ::selection,
-  .register .wrapper .basic .price-area,
-  .register .wrapper .basic .inner-area{
-    background: #ffd861;
-  }
-  .register .wrapper .basic .btn button{
-    border: 2px solid #ffd861;
-    background: #ffd861;
-    color: #fff;
-  }
-  .register .wrapper .basic .btn button:hover{
-    background: #ffd861;
-    color: #fff;
-  }
-  .register .wrapper .premium ::selection,
-  .register .wrapper .premium .price-area,
-  .register .wrapper .premium .inner-area,
-  .register .wrapper .premium .btn button{
-    background: #a26bfa;
-  }
-  .register .wrapper .premium .btn button:hover{
-    background: #833af8;
-  }
-  .register .wrapper .ultimate ::selection,
-  .register .wrapper .ultimate .price-area,
-  .register .wrapper .ultimate .inner-area{
-    background: #43ef8b;
-  }
-  .register .wrapper .ultimate .btn button{
-    border: 2px solid #43ef8b;
-    color: #fff;
-    background: #43ef8b;
-  }
-  .register .wrapper .ultimate .btn button:hover{
-    background: #43ef8b;
-    color: #fff;
-  }
-  .register .wrapper .basic .package-name{
-    background: #ffecb3;
-  }
-  .register .wrapper .premium .package-name{
-    background: #d0b3ff;
-  }
-  .ultimate .package-name{
-    background: #baf8d4;
-  }
-  .register .wrapper .basic .package-name::before{
-    content: "Basic";
-    font-size: 24px;
+    font-family: "Ubuntu", sans-serif;
 }
-  .register .wrapper .premium .package-name::before{
-    content: "Standard";
-    font-size: 24px;
-  }
-  .register .wrapper .ultimate .package-name::before{
-    content: "Premium";
-    font-size: 24px;
-  }
+
+
+.register .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 0;
+    margin-top: -50px;
+}
+
+.register .container .box{
+    position: relative;
+    width: 320px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 30px;
+    transition: 0.5s;
+    margin-bottom: 100px;
+    margin-right: 30px;
+}
+
+.register .container .box::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50px;
+    width: 50%;
+    height: 500px;
+    background: #fff;
+    border-radius: 8px;
+    transform: skewX(15deg);
+    transition: 0.5s;
+}
+
+.register .container .box::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50px;
+    width: 50%;
+    height: 500px;
+    background: #fff;
+    border-radius: 8px;
+    transform: skewX(15deg);
+    transition: 0.5s;
+    filter: blur(30px);
+    transition: 0.5s;
+}
+
+.register .container .box:hover:before,
+.register .container .box:hover:after
+{
+    transform: skewX(0deg);
+    left: 20px;
+    width: calc(100% - 90px);
+}
+
+.register .container .box:nth-child(1):before,
+.register .container .box:nth-child(1):after
+{
+    background: linear-gradient(315deg, #ffbc00, #ff0058);
+}
+
+.register .container .box:nth-child(2):before,
+.register .container .box:nth-child(2):after
+{
+    background: linear-gradient(315deg, #03a9f4, #ff0058);
+}
+
+.register .container .box:nth-child(3):before,
+.register .container .box:nth-child(3):after
+{
+    background: linear-gradient(315deg, #4dff03, #00d0ff);
+}
+
+.register .container .box span
+{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 50;
+    pointer-events: none;
+}
+
+.register .container .box span::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    opacity: 0;
+    transition: 0.5s;
+    animation: animate 2s ease-in-out infinite;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.register .container .box:hover span::before{
+    top: -50px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+}
+
+.register .container .box span::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    opacity: 0;
+    transition: 0.5s;
+    animation: animate 2s ease-in-out infinite;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    animation: -1s;
+}
+
+.register .container .box:hover span::after{
+    bottom: -50px;
+    right: 50px;
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+}
+
+@keyframes animate
+{
+    0%,100%
+    {
+        transform: translateY(10px);
+    }
+    50%
+    {
+        transform: translateY(-10px);
+    }
+}
+
+.register .container .box .content{
+    z-index: 1;
+    position: relative;
+    left: 0;
+    padding: 20px 40px;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+    transform: 0.5s;
+    color: #fff;
+    margin-top: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.register .container .box:hover .content{
+    left: -25px;
+    padding: 60px 40px;
+}
+
+.register .container .box .content h2{
+    font-size: 1.3em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.register .container .box .content p{
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    line-height: 1.4em;
+}
+
+.register .container .box .content a{
+    display: inline-block;
+    font-size: 1.1em;
+    color: #111;
+    background: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
 
   footer{
     background: #111;
@@ -735,49 +755,6 @@ footer span a:hover{
       width: 100%;
     }
   }
-  .register .wrapper::selection{
-    color: #fff;
-  }
-  .register .wrapper .table .ribbon{
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    top: -10px;
-    left: -10px;
-    overflow: hidden;
-  }
-  .register .wrapper .table .ribbon::before,
-  .register .wrapper .table .ribbon::after{
-    position: absolute;
-    content: "";
-    z-index: -1;
-    display: block;
-    border: 7px solid #4606ac;
-    border-top-color: transparent;
-    border-left-color: transparent;
-  }
-  .register .wrapper .table .ribbon::before{
-    top: 0px;
-    right: 15px;
-  }
-  .register .wrapper .table .ribbon::after{
-    bottom: 15px;
-    left: 0px;
-  }
-  .register .wrapper .table .ribbon span{
-    position: absolute;
-    top: 30px;
-    right: 0;
-    transform: rotate(-45deg);
-    width: 200px;
-    background: #a26bfa;
-    padding: 10px 0;
-    color: #fff;
-    text-align: center;
-    font-size: 17px;
-    text-transform: uppercase;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.12);
-  }
 
 /*Responsive */
 
@@ -795,6 +772,28 @@ footer span a:hover{
     }
     
     .speakers::after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(#2196f3, #e91e62);
+        clip-path: circle(15% at 10% 10%);
+    }
+
+    .teams::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(#f00, #f0f);
+        clip-path: circle(15% at right 90%);
+    }
+
+    .teams::after{
         content: '';
         position: absolute;
         top: 0;
@@ -831,6 +830,28 @@ footer span a:hover{
     }
     
     .speakers::after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(#2196f3, #e91e62);
+        clip-path: circle(10% at 5% 10%);
+    }
+
+    .teams::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(#f00, #f0f);
+        clip-path: circle(10% at right 95%);
+    }
+
+    .teams::after{
         content: '';
         position: absolute;
         top: 0;
@@ -937,6 +958,28 @@ footer span a:hover{
         background: linear-gradient(#2196f3, #e91e62);
         clip-path: circle(10% at 5% 10%);
     }
+
+    .teams::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(#f00, #f0f);
+        clip-path: circle(10% at right 95%);
+    }
+
+    .teams::after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(#2196f3, #e91e62);
+        clip-path: circle(10% at 5% 10%);
+    }
 }
 
 @media (max-width: 849px){
@@ -952,6 +995,28 @@ footer span a:hover{
     }
     
     .speakers::after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(#2196f3, #e91e62);
+        clip-path: circle(7% at 5% 10%);
+    }
+
+    .teams::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(#f00, #f0f);
+        clip-path: circle(9% at right 95%);
+    }
+
+    .teams::after{
         content: '';
         position: absolute;
         top: 0;
@@ -1011,6 +1076,28 @@ footer span a:hover{
         background: linear-gradient(#2196f3, #e91e62);
         clip-path: circle(4% at 5% 10%);
     }
+
+    .teams::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(#f00, #f0f);
+        clip-path: circle(8% at 94% 90%);
+    }
+
+    .teams::after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(#2196f3, #e91e62);
+        clip-path: circle(8% at 5% 10%);
+    }
 }
 
 @media (max-width: 500px) {
@@ -1046,5 +1133,27 @@ footer span a:hover{
         width: 35px;
         font-size: 23px;
         line-height: 38px;
+    }
+
+    .teams::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(#f00, #f0f);
+        clip-path: circle(6% at 94% 90%);
+    }
+
+    .teams::after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(#2196f3, #e91e62);
+        clip-path: circle(6% at 5% 12%);
     }
 }
