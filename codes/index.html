@@ -394,7 +394,12 @@
   </footer>
 
     <script src="script.js"></script>
-    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+	if (screen && screen.width > 480) {
+  		document.write('<script type="text/javascript" src="vanilla-tilt.js"><\/script>');
+	}
+    </script>
+	
     <script>
         VanillaTilt.init(document.querySelectorAll(".card"), {
 		max: 25,
