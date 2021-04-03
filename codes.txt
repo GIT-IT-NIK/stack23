@@ -1,0 +1,440 @@
+<!-- Featured -->
+		<section class="section snapSection section--full section--white featuredSection animateSection" id="about">
+			<h3 class="section__name">Featured Projects</h3>
+			<div class="featuredSlider">
+				<div class="featuredSlider__slide">
+					<div class="featuredSlider__slideContent">
+						<img src alt class="featuredSlider__logo" data-animate-delay="100" loading="lazy">
+						<h4 class="featuredSlider__name" data-animate-delay="150">LA Clippers</h4>
+						<div class="featuredSlider__copy" data-animate-delay="200">
+							<p><span class="color_11">What better way to head into your season opener after snagging a
+									world champion basketball player than with an 8,000 square foot mural, complete with
+									an augmented reality experience. </span></p>
+						</div>
+
+						<a href="https://www.muros.co/projects/la-clippers-augmented-reality-activated-mural/"
+							class="button button--onImage featuredSlider__cta " data-animate-delay="250">learn more
+							<span class="seo">about our LA Clippers mural project</span></a>
+
+					</div>
+					<picture class>
+						<!--[if IE 9]><video style="display: none;"><![endif]-->
+						<source
+							data-lazy-srcset="https://cdn.muros.co/wp-content/uploads/2021/02/04181331/clippers-desktop.jpg"
+							media="(min-width: 960px)">
+						<!--[if IE 9]></video><![endif]-->
+						<img srcset="images/clippers-slide-mobile.jpg" alt class="featuredSlider__bg" loading="lazy">
+					</picture>
+				</div>
+				<div class="featuredSlider__slide">
+					<div class="featuredSlider__slideContent">
+						<img src alt class="featuredSlider__logo" data-animate-delay="100" loading="lazy">
+						<h4 class="featuredSlider__name" data-animate-delay="150">Instacart</h4>
+						<div class="featuredSlider__copy" data-animate-delay="200">
+							<p>Integrating mural art and artists into their creative marketing strategy was the perfect
+								approach for Instacart to celebrate their newly formed partnership with Walmart.</p>
+						</div>
+
+						<a href="https://www.muros.co/projects/instacart-mural-campaign-san-francisco-steffi-lynn/"
+							class="button button--onImage featuredSlider__cta " data-animate-delay="250">learn more
+							<span class="seo">about our Instacart mural project</span></a>
+
+					</div>
+					<picture class>
+						<!--[if IE 9]><video style="display: none;"><![endif]-->
+						<source
+							data-lazy-srcset="https://cdn.muros.co/wp-content/uploads/2021/02/04181747/Instacart_SF_Steffi_High_8-scaled-1.jpg"
+							media="(min-width: 960px)">
+						<!--[if IE 9]></video><![endif]-->
+						<img srcset="images/instacart-mobile.jpg" alt class="featuredSlider__bg" loading="lazy">
+					</picture>
+				</div>
+				<div class="featuredSlider__slide">
+					<div class="featuredSlider__slideContent">
+						<img src alt class="featuredSlider__logo" data-animate-delay="100" loading="lazy">
+						<h4 class="featuredSlider__name" data-animate-delay="150">Hudson Yards</h4>
+						<div class="featuredSlider__copy" data-animate-delay="200">
+							<p>The iconic Hudson Yards has been committed to art throughout its development. They
+								further extended that dedication by commissioning two of the world&#8217;s top artists,
+								Elle and Key Detail, to create these stunning murals to adorn their plaza</p>
+						</div>
+
+						<a href="https://www.muros.co/projects/related-hudson-yards/"
+							class="button button--onImage featuredSlider__cta " data-animate-delay="250">Learn More
+							<span class="seo">about our Hudson Yards mural project</span></a>
+
+					</div>
+					<picture class>
+						<!--[if IE 9]><video style="display: none;"><![endif]-->
+						<source
+							data-lazy-srcset="https://cdn.muros.co/wp-content/uploads/2021/02/04182031/Related_Elle_4_High-scaled-1.jpg"
+							media="(min-width: 960px)">
+						<!--[if IE 9]></video><![endif]-->
+						<img srcset="images/hudson-mobile.jpg" alt class="featuredSlider__bg" loading="lazy">
+					</picture>
+				</div>
+				<div class="featuredSlider__slide">
+					<div class="featuredSlider__slideContent">
+						<img src alt class="featuredSlider__logo" data-animate-delay="100" loading="lazy">
+						<h4 class="featuredSlider__name" data-animate-delay="150">fifield westerly</h4>
+						<div class="featuredSlider__copy" data-animate-delay="200">
+							<p>To add vibrancy and authentically capture the unity of multiple cultures that inhabit the
+								River West neighborhood in Chicago,  Fifield Companies tapped Chicago-based street
+								artist Sentrock to activate this truly incredibly at their brand new Westerly
+								development.</p>
+						</div>
+
+						<a href="https://www.muros.co/projects/fifield-companies-westerly-sentrock-mural/"
+							class="button button--onImage featuredSlider__cta " data-animate-delay="250">learn more
+							<span class="seo">about our fifield westerly mural project</span></a>
+
+					</div>
+					<picture class>
+						<!--[if IE 9]><video style="display: none;"><![endif]-->
+						<source
+							data-lazy-srcset="https://cdn.muros.co/wp-content/uploads/2021/02/04182310/Fifield_Westerly_Sentrock_High_17-scaled-1.jpg"
+							media="(min-width: 960px)">
+						<!--[if IE 9]></video><![endif]-->
+						<img srcset="images/fifield-mobile.jpg" alt class="featuredSlider__bg" loading="lazy">
+					</picture>
+				</div>
+				<div class="featuredSlider__slide">
+					<div class="featuredSlider__slideContent">
+						<img src="data:image/svg+xml,%3Csvg%20xmlns=&#x27;http://www.w3.org/2000/svg&#x27;%20viewBox=&#x27;0%200%200%200&#x27;%3E%3C/svg%3E"
+							alt="Shake Shack logo icon knocked out in white" class="featuredSlider__logo"
+							data-animate-delay="100" loading="lazy"
+							data-lazy-src="https://cdn.muros.co/wp-content/uploads/2020/08/05002840/project-logo-shakeshack.png"><noscript><img
+								src="images/project-logo-shakeshack.png"
+								alt="Shake Shack logo icon knocked out in white" class="featuredSlider__logo"
+								data-animate-delay="100" loading="lazy"></noscript>
+						<h4 class="featuredSlider__name" data-animate-delay="150">Shake Shack</h4>
+						<div class="featuredSlider__copy" data-animate-delay="200">
+							<p>Shake Shack embraced the street art culture of the Old Fourth Ward neighborhood by
+								commissioning Atlanta mural artist David Fratu. Known for his geometric and abstract
+								art, David added a vibrant and organic piece to the space. The boldness of the mural
+								surrounds their menu boards and compliments the Shake Shack aesthetic perfectly.</p>
+						</div>
+
+						<a href="https://www.muros.co/projects/shake-shack-old-fourth-ward/"
+							class="button button--onImage featuredSlider__cta " data-animate-delay="250">Learn More
+							<span class="seo">about our Shake Shack mural project</span></a>
+
+					</div>
+					<picture class>
+						<!--[if IE 9]><video style="display: none;"><![endif]-->
+						<source
+							data-lazy-srcset="https://cdn.muros.co/wp-content/uploads/2021/02/04182631/project-shakeshack-bg-1.jpg"
+							media="(min-width: 960px)">
+						<!--[if IE 9]></video><![endif]-->
+						<img srcset="images/shake-shack-mobile.jpg" alt class="featuredSlider__bg" loading="lazy">
+					</picture>
+				</div>
+				<div class="featuredSlider__slide">
+					<div class="featuredSlider__slideContent">
+						<img src="data:image/svg+xml,%3Csvg%20xmlns=&#x27;http://www.w3.org/2000/svg&#x27;%20viewBox=&#x27;0%200%200%200&#x27;%3E%3C/svg%3E"
+							alt="Chicago Fire logo icon knocked out in white" class="featuredSlider__logo"
+							data-animate-delay="100" loading="lazy"
+							data-lazy-src="https://cdn.muros.co/wp-content/uploads/2020/08/05002840/project-logo-chicagofire.png"><noscript><img
+								src="images/project-logo-chicagofire.png"
+								alt="Chicago Fire logo icon knocked out in white" class="featuredSlider__logo"
+								data-animate-delay="100" loading="lazy"></noscript>
+						<h4 class="featuredSlider__name" data-animate-delay="150">Chicago Fire</h4>
+						<div class="featuredSlider__copy" data-animate-delay="200">
+							<p>With the launch of its new logo and <em>Stand for Chicago</em> campaign, the Chicago Fire
+								was looking for a bold statement to showcase its commitment to the community. By
+								partnering with artist Max Sansing they created a mural to highlight and inspire the
+								next generation of Chicago athletes.</p>
+						</div>
+
+						<a href="https://www.muros.co/projects/chicago-fire-fc/"
+							class="button button--onImage featuredSlider__cta " data-animate-delay="250">Learn More
+							<span class="seo">about our Chicago Fire mural project</span></a>
+
+					</div>
+					<picture class>
+						<!--[if IE 9]><video style="display: none;"><![endif]-->
+						<source
+							data-lazy-srcset="https://cdn.muros.co/wp-content/uploads/2021/02/04182917/project-chicagofire-bg-1.jpg"
+							media="(min-width: 960px)">
+						<!--[if IE 9]></video><![endif]-->
+						<img srcset="images/fire-mobile.jpg" alt class="featuredSlider__bg" loading="lazy">
+					</picture>
+				</div>
+				<div class="featuredSlider__slide">
+					<div class="featuredSlider__slideContent">
+						<img src="data:image/svg+xml,%3Csvg%20xmlns=&#x27;http://www.w3.org/2000/svg&#x27;%20viewBox=&#x27;0%200%200%200&#x27;%3E%3C/svg%3E"
+							alt="Square logo icon knocked out in white" class="featuredSlider__logo"
+							data-animate-delay="100" loading="lazy"
+							data-lazy-src="https://cdn.muros.co/wp-content/uploads/2020/08/05002840/project-logo-square.png"><noscript><img
+								src="images/project-logo-square.png" alt="Square logo icon knocked out in white"
+								class="featuredSlider__logo" data-animate-delay="100" loading="lazy"></noscript>
+						<h4 class="featuredSlider__name" data-animate-delay="150">Square Payments</h4>
+						<div class="featuredSlider__copy" data-animate-delay="200">
+							<p>Square wanted to reach and engage small business owners through art. Using inspirational
+								quotes and murals that showcased local Square users, this campaign was a unique way to
+								demonstrate their support for the Atlanta business community.</p>
+						</div>
+
+						<a href="https://www.muros.co/projects/square-payments-self-made-campaign-atlanta/"
+							class="button button--onImage featuredSlider__cta " data-animate-delay="250">Learn More
+							<span class="seo">about our Square Payments mural project</span></a>
+
+					</div>
+					<picture class>
+						<!--[if IE 9]><video style="display: none;"><![endif]-->
+						<source
+							data-lazy-srcset="https://cdn.muros.co/wp-content/uploads/2021/02/04183125/project-square-bg-1.jpg"
+							media="(min-width: 960px)">
+						<!--[if IE 9]></video><![endif]-->
+						<img srcset="images/square-mobile.jpg" alt class="featuredSlider__bg" loading="lazy">
+					</picture>
+				</div>
+				<div class="featuredSlider__slide">
+					<div class="featuredSlider__slideContent">
+						<img src="data:image/svg+xml,%3Csvg%20xmlns=&#x27;http://www.w3.org/2000/svg&#x27;%20viewBox=&#x27;0%200%200%200&#x27;%3E%3C/svg%3E"
+							alt="Brookfield Properties logo icon knocked out in white" class="featuredSlider__logo"
+							data-animate-delay="100" loading="lazy"
+							data-lazy-src="https://cdn.muros.co/wp-content/uploads/2020/08/05002838/project-logo-brookfieldproperties.png"><noscript><img
+								src="images/project-logo-brookfieldproperties.png"
+								alt="Brookfield Properties logo icon knocked out in white" class="featuredSlider__logo"
+								data-animate-delay="100" loading="lazy"></noscript>
+						<h4 class="featuredSlider__name" data-animate-delay="150">Brookfield Properties</h4>
+						<div class="featuredSlider__copy" data-animate-delay="200">
+							<p>This artist, Kate Lewis, created an intricate design that allows the viewer to discover
+								this simple and uplifting message: inspire. It’s a regular reminder to find those things
+								that inspire us, and to be an inspiration for others.</p>
+						</div>
+
+						<a href="https://www.muros.co/projects/brookfield-properties-inspire/"
+							class="button button--onImage featuredSlider__cta " data-animate-delay="250">Learn More
+							<span class="seo">about our Brookfield Properties mural project</span></a>
+
+					</div>
+					<picture class>
+						<!--[if IE 9]><video style="display: none;"><![endif]-->
+						<source
+							data-lazy-srcset="https://cdn.muros.co/wp-content/uploads/2021/02/04183301/project-brookfieldproperties-bg-1.jpg"
+							media="(min-width: 960px)">
+						<!--[if IE 9]></video><![endif]-->
+						<img srcset="images/brookfield-mobile.jpg" alt class="featuredSlider__bg" loading="lazy">
+					</picture>
+				</div>
+
+			</div>
+			<a href="/projects/"
+				class="featuredSection__cta button button--outline button--white animateOnLoad animateOnLoad--button">All
+				Projects</a>
+		</section>
+
+		<!-- Capabilities-->
+		<section class="section section--full capabilitiesSection animateSection">
+			<h3 class="section__name">Our Capabilities</h3>
+			<div class="section--flex">
+				<div class="capabilities">
+
+					<div class="capability">
+						<h4 class="capability__title animateOnLoad"><a href="/capabilities#mural-advertising">out of
+								home mural advertising</a></h4>
+						<div class="capability__content animateOnLoad" data-animate-delay="100">
+							<p>Consider us the anti-billboard makers creating art forward messaging that inherently
+								compels people to connect, engage, and share. We put a truly authentic and artistic spin
+								on your OOH advertising.</p>
+							<a href="/capabilities#mural-advertising" class="capability__cta">Learn More</a>
+						</div>
+					</div>
+					<div class="capability">
+						<h4 class="capability__title animateOnLoad"><a href="/capabilities#live-art">live art
+								experiences</a></h4>
+						<div class="capability__content animateOnLoad" data-animate-delay="100">
+							<p>From festivals to pop-ups to artist collabs, we create custom activations infused with
+								live art to capture interest and attention. Drive traffic, increase dwell time, or
+								simply offer your customers something new.</p>
+							<a href="/capabilities#live-art" class="capability__cta">Learn More</a>
+						</div>
+					</div>
+					<div class="capability">
+						<h4 class="capability__title animateOnLoad"><a href="/capabilities#murals">murals, sculptures &
+								installations</a></h4>
+						<div class="capability__content animateOnLoad" data-animate-delay="100">
+							<p>Whether you're looking for an incredible (and Instagrammable) feature wall, an edgy
+								office mural, show-stopping art for your hotel lobby, or some serious curb appeal for
+								your properties–we've got your back.</p>
+							<a href="/capabilities#murals" class="capability__cta">Learn More</a>
+						</div>
+					</div>
+				</div>
+				<!-- capabilities -->
+
+				<div class="services">
+					<div class="services--inner">
+
+						<div class="service service--">
+							<div class="service__iconWrap animateOnLoad">
+								<img src="data:image/svg+xml,%3Csvg%20xmlns=&#x27;http://www.w3.org/2000/svg&#x27;%20viewBox=&#x27;0%200%200%200&#x27;%3E%3C/svg%3E"
+									alt class="service__imageIcon" loading="lazy"
+									data-lazy-src="https://cdn.muros.co/wp-content/uploads/2021/02/04224515/content-capture-black-1-1.png"><noscript><img
+										src="images/content-capture-black-1-1.png" alt class="service__imageIcon"
+										loading="lazy"></noscript>
+							</div>
+							<h5 class="service__title animateOnLoad" data-animate-delay="250"><a
+									href="/capabilities#content-creation">Content Creation</a></h5>
+							<p class="service__details animateOnLoad" data-animate-delay="300">Stunning photos and
+								videos to get noticed in your feed.</p>
+						</div>
+						<div class="service service--">
+							<div class="service__iconWrap animateOnLoad">
+								<img src="data:image/svg+xml,%3Csvg%20xmlns=&#x27;http://www.w3.org/2000/svg&#x27;%20viewBox=&#x27;0%200%200%200&#x27;%3E%3C/svg%3E"
+									alt class="service__imageIcon" loading="lazy"
+									data-lazy-src="https://cdn.muros.co/wp-content/uploads/2021/02/04224526/augmented-reality-black-1-1.png"><noscript><img
+										src="images/augmented-reality-black-1-1.png" alt class="service__imageIcon"
+										loading="lazy"></noscript>
+							</div>
+							<h5 class="service__title animateOnLoad" data-animate-delay="250"><a
+									href="/capabilities#augmented-reality">Augmented Reality</a></h5>
+							<p class="service__details animateOnLoad" data-animate-delay="300">Incorporate AR into
+								murals to up-level the user experience.</p>
+						</div>
+						<div class="service service--">
+							<div class="service__iconWrap animateOnLoad">
+								<img src="data:image/svg+xml,%3Csvg%20xmlns=&#x27;http://www.w3.org/2000/svg&#x27;%20viewBox=&#x27;0%200%200%200&#x27;%3E%3C/svg%3E"
+									alt class="service__imageIcon" loading="lazy"
+									data-lazy-src="https://cdn.muros.co/wp-content/uploads/2021/02/04224536/artist-collaboration-black-1-1.png"><noscript><img
+										src="images/artist-collaboration-black-1-1.png" alt class="service__imageIcon"
+										loading="lazy"></noscript>
+							</div>
+							<h5 class="service__title animateOnLoad" data-animate-delay="250"><a
+									href="/capabilities#artist-collaborations">Artist Collab<span>oration</span>s</a>
+							</h5>
+							<p class="service__details animateOnLoad" data-animate-delay="300">From hats to tees, to
+								packaged goods, we can customize anything.</p>
+						</div>
+						<div class="service service--">
+							<div class="service__iconWrap animateOnLoad">
+								<img src="data:image/svg+xml,%3Csvg%20xmlns=&#x27;http://www.w3.org/2000/svg&#x27;%20viewBox=&#x27;0%200%200%200&#x27;%3E%3C/svg%3E"
+									alt class="service__imageIcon" loading="lazy"
+									data-lazy-src="https://cdn.muros.co/wp-content/uploads/2021/02/04224548/artist-network-black-1.png"><noscript><img
+										src="images/artist-network-black-1.png" alt class="service__imageIcon"
+										loading="lazy"></noscript>
+							</div>
+							<h5 class="service__title animateOnLoad" data-animate-delay="250"><a
+									href="/capabilities#artist-network">Artist Network</a></h5>
+							<p class="service__details animateOnLoad" data-animate-delay="300">Over 1300 artists in our
+								growing, global network to explore.</p>
+						</div>
+					</div>
+					<a href="/capabilities/"
+						class="button button--outline button--center animateOnLoad animateOnLoad--button capabilitiesSection__cta">More
+						About Our Capabilities</a>
+				</div>
+			</div>
+		</section>
+
+		<!-- Clients -->
+		<section class="section section--full clientsSection animateSection">
+			<h3 class="section__name">Select Clients</h3>
+			<div class="clientsSection--flex">
+
+				<div class="clientsSection__copy">
+					<h4 class="clientsSection__copyTitle animateOnLoad" data-animate-delay="100">Our Amazing Partners
+					</h4>
+					<p class="clientsSection__copyText animateOnLoad" data-animate-delay="250">Our team has worked with
+						some of the largest global brands, agencies, start-ups, and local businesses so we understand
+						the details needed to deliver an outstanding project.</p>
+
+					<a href="/about#our-process" class="button button--outline animateOnLoad"
+						data-animate-delay="350">Our Process</a>
+
+				</div>
+
+				<div class="clientsSection__logos">
+
+					<div class="clientsSection__logo">
+						<img src="data:image/svg+xml,%3Csvg%20xmlns=&#x27;http://www.w3.org/2000/svg&#x27;%20viewBox=&#x27;0%200%200%200&#x27;%3E%3C/svg%3E"
+							alt class="clientsSection__logoImage animateOnLoad" data-animate-delay="712" loading="lazy"
+							data-lazy-src="https://cdn.muros.co/wp-content/uploads/2020/10/04231457/Intacart_Logo.png"><noscript><img
+								src="images/Intacart_Logo.png" alt class="clientsSection__logoImage animateOnLoad"
+								data-animate-delay="712" loading="lazy"></noscript>
+					</div>
+					<div class="clientsSection__logo">
+						<img src="data:image/svg+xml,%3Csvg%20xmlns=&#x27;http://www.w3.org/2000/svg&#x27;%20viewBox=&#x27;0%200%200%200&#x27;%3E%3C/svg%3E"
+							alt class="clientsSection__logoImage animateOnLoad" data-animate-delay="644" loading="lazy"
+							data-lazy-src="https://cdn.muros.co/wp-content/uploads/2020/08/05002844/clients-clippers.png"><noscript><img
+								src="images/clients-clippers.png" alt class="clientsSection__logoImage animateOnLoad"
+								data-animate-delay="644" loading="lazy"></noscript>
+					</div>
+					<div class="clientsSection__logo">
+						<img src="data:image/svg+xml,%3Csvg%20xmlns=&#x27;http://www.w3.org/2000/svg&#x27;%20viewBox=&#x27;0%200%200%200&#x27;%3E%3C/svg%3E"
+							alt class="clientsSection__logoImage animateOnLoad" data-animate-delay="566" loading="lazy"
+							data-lazy-src="https://cdn.muros.co/wp-content/uploads/2020/08/05002844/clients-square.png"><noscript><img
+								src="images/clients-square.png" alt class="clientsSection__logoImage animateOnLoad"
+								data-animate-delay="566" loading="lazy"></noscript>
+					</div>
+					<div class="clientsSection__logo">
+						<img src="data:image/svg+xml,%3Csvg%20xmlns=&#x27;http://www.w3.org/2000/svg&#x27;%20viewBox=&#x27;0%200%200%200&#x27;%3E%3C/svg%3E"
+							alt class="clientsSection__logoImage animateOnLoad" data-animate-delay="829" loading="lazy"
+							data-lazy-src="https://cdn.muros.co/wp-content/uploads/2020/08/05002844/clients-white-sox.png"><noscript><img
+								src="images/clients-white-sox.png" alt class="clientsSection__logoImage animateOnLoad"
+								data-animate-delay="829" loading="lazy"></noscript>
+					</div>
+					<div class="clientsSection__logo">
+						<img src="data:image/svg+xml,%3Csvg%20xmlns=&#x27;http://www.w3.org/2000/svg&#x27;%20viewBox=&#x27;0%200%200%200&#x27;%3E%3C/svg%3E"
+							alt class="clientsSection__logoImage animateOnLoad" data-animate-delay="535" loading="lazy"
+							data-lazy-src="https://cdn.muros.co/wp-content/uploads/2020/08/05002844/clients-brookfield-properties.png"><noscript><img
+								src="images/clients-brookfield-properties.png" alt
+								class="clientsSection__logoImage animateOnLoad" data-animate-delay="535"
+								loading="lazy"></noscript>
+					</div>
+					<div class="clientsSection__logo">
+						<img src="data:image/svg+xml,%3Csvg%20xmlns=&#x27;http://www.w3.org/2000/svg&#x27;%20viewBox=&#x27;0%200%200%200&#x27;%3E%3C/svg%3E"
+							alt class="clientsSection__logoImage animateOnLoad" data-animate-delay="473" loading="lazy"
+							data-lazy-src="https://cdn.muros.co/wp-content/uploads/2020/08/05002844/clients-chicago-fire.png"><noscript><img
+								src="images/clients-chicago-fire.png" alt
+								class="clientsSection__logoImage animateOnLoad" data-animate-delay="473"
+								loading="lazy"></noscript>
+					</div>
+					<div class="clientsSection__logo">
+						<img src="data:image/svg+xml,%3Csvg%20xmlns=&#x27;http://www.w3.org/2000/svg&#x27;%20viewBox=&#x27;0%200%200%200&#x27;%3E%3C/svg%3E"
+							alt class="clientsSection__logoImage animateOnLoad" data-animate-delay="639" loading="lazy"
+							data-lazy-src="https://cdn.muros.co/wp-content/uploads/2020/08/05002254/ab-logo-1.png"><noscript><img
+								src="images/ab-logo-1.png" alt class="clientsSection__logoImage animateOnLoad"
+								data-animate-delay="639" loading="lazy"></noscript>
+					</div>
+					<div class="clientsSection__logo">
+						<img src="data:image/svg+xml,%3Csvg%20xmlns=&#x27;http://www.w3.org/2000/svg&#x27;%20viewBox=&#x27;0%200%200%200&#x27;%3E%3C/svg%3E"
+							alt class="clientsSection__logoImage animateOnLoad" data-animate-delay="455" loading="lazy"
+							data-lazy-src="https://cdn.muros.co/wp-content/uploads/2020/08/05002844/clients-astros.png"><noscript><img
+								src="images/clients-astros.png" alt class="clientsSection__logoImage animateOnLoad"
+								data-animate-delay="455" loading="lazy"></noscript>
+					</div>
+					<div class="clientsSection__logo">
+						<img src="data:image/svg+xml,%3Csvg%20xmlns=&#x27;http://www.w3.org/2000/svg&#x27;%20viewBox=&#x27;0%200%200%200&#x27;%3E%3C/svg%3E"
+							alt class="clientsSection__logoImage animateOnLoad" data-animate-delay="432" loading="lazy"
+							data-lazy-src="https://cdn.muros.co/wp-content/uploads/2020/10/04231457/Related_Logo.png"><noscript><img
+								src="images/Related_Logo.png" alt class="clientsSection__logoImage animateOnLoad"
+								data-animate-delay="432" loading="lazy"></noscript>
+					</div>
+					<div class="clientsSection__logo">
+						<img src="data:image/svg+xml,%3Csvg%20xmlns=&#x27;http://www.w3.org/2000/svg&#x27;%20viewBox=&#x27;0%200%200%200&#x27;%3E%3C/svg%3E"
+							alt class="clientsSection__logoImage animateOnLoad" data-animate-delay="694" loading="lazy"
+							data-lazy-src="https://cdn.muros.co/wp-content/uploads/2020/08/05002844/clients-shake-shack.png"><noscript><img
+								src="images/clients-shake-shack.png" alt class="clientsSection__logoImage animateOnLoad"
+								data-animate-delay="694" loading="lazy"></noscript>
+					</div>
+					<div class="clientsSection__logo">
+						<img src="data:image/svg+xml,%3Csvg%20xmlns=&#x27;http://www.w3.org/2000/svg&#x27;%20viewBox=&#x27;0%200%200%200&#x27;%3E%3C/svg%3E"
+							alt class="clientsSection__logoImage animateOnLoad" data-animate-delay="462" loading="lazy"
+							data-lazy-src="https://cdn.muros.co/wp-content/uploads/2020/10/04231456/LiveNation_Logo-1.png"><noscript><img
+								src="images/LiveNation_Logo-1.png" alt class="clientsSection__logoImage animateOnLoad"
+								data-animate-delay="462" loading="lazy"></noscript>
+					</div>
+					<div class="clientsSection__logo">
+						<img src="data:image/svg+xml,%3Csvg%20xmlns=&#x27;http://www.w3.org/2000/svg&#x27;%20viewBox=&#x27;0%200%200%200&#x27;%3E%3C/svg%3E"
+							alt class="clientsSection__logoImage animateOnLoad" data-animate-delay="480" loading="lazy"
+							data-lazy-src="https://cdn.muros.co/wp-content/uploads/2020/10/04231456/Bucks_Logo.png"><noscript><img
+								src="images/Bucks_Logo.png" alt class="clientsSection__logoImage animateOnLoad"
+								data-animate-delay="480" loading="lazy"></noscript>
+					</div>
+
+				</div>
+			</div>
+		</section>

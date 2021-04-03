@@ -1,0 +1,29 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * proxima-nova:
+ *   - http://typekit.com/eulas/00000000000000003b9b3066
+ *   - http://typekit.com/eulas/00000000000000003b9b3062
+ *
+ * © 2009-2021 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2020-05-12 19:18:42 UTC"}*/
+
+@import url("p.css");
+
+@font-face {
+font-family:"proxima-nova";
+src:url("../l") format("woff2"),url("../d") format("woff"),url("../a") format("opentype");
+font-display:auto;font-style:normal;font-weight:600;
+}
+
+@font-face {
+font-family:"proxima-nova";
+src:url("../l_1") format("woff2"),url("../d_1") format("woff"),url("../a_1") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+.tk-proxima-nova { font-family: "proxima-nova",sans-serif; }
