@@ -3615,14 +3615,14 @@ html.has-scroll-dragging {
 
 .pageIntro {
     width: 100%;
-    padding-top: 105px;
+    padding-top: 1px;
     padding-bottom: 90px;
     overflow: hidden
 }
 
 @media only screen and (min-width:650px) {
     .pageIntro {
-        padding-top: 160px
+        padding-top: 1px
     }
 }
 
@@ -3873,19 +3873,19 @@ main {
     max-width: 100vw;
     overflow: hidden;
     position: relative;
-    padding-top: 95px;
-    scroll-margin-top: 70px
+    padding-top: 40px;
+    scroll-margin-top: 10px
 }
 
 @media only screen and (min-width:480px) {
     .section {
-        padding-top: 160px
+        padding-top: 80px
     }
 }
 
 @media only screen and (min-width:960px) {
     .section {
-        padding-top: 185px
+        padding-top: 105px
     }
 }
 
