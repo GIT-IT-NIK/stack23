@@ -262,6 +262,35 @@ template {
     font-display: swap
 }
 
+/* ==============================================================================
+                for register part and bootstrap revoled code
+================================================================================= */
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px
+}
+.col-md-4 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+@media (min-width:768px) {
+
+     .col-md-4 {
+         -ms-flex: 0 0 33.333333%;
+         flex: 0 0 33.333333%;
+         max-width: 33.333333%
+     }
+}
+
+/* ========================================================================================== */
 .hidden {
     display: none !important
 }
