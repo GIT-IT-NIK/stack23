@@ -6,7 +6,8 @@ html {
 }
 
 body {
-    margin: 0
+    margin: 0;
+    overflow-x: hidden;
 }
 
 article,
@@ -271,8 +272,9 @@ template {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px
+    /* margin-right: -15px;
+    margin-left: -15px;
+    overflow-x: hidden; */
 }
 .col-md-4 {
     position: relative;
@@ -286,7 +288,8 @@ template {
      .col-md-4 {
          -ms-flex: 0 0 33.333333%;
          flex: 0 0 33.333333%;
-         max-width: 33.333333%
+         max-width: 33.333333%;
+         overflow: hidden;
      }
 }
 
