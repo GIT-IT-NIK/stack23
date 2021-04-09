@@ -3692,6 +3692,9 @@ html.has-scroll-dragging {
     }
 }
 
+.floa{
+    overflow: hidden;
+}
 .floatingImages {
     width: 1400vw;
     height: 270px;
