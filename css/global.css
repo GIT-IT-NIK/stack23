@@ -272,9 +272,9 @@ template {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-right: -15px;
+    /* margin-right: -15px;
     margin-left: -15px;
-    overflow-x: hidden;
+    overflow-x: hidden; */
 }
 .col-md-4 {
     position: relative;
