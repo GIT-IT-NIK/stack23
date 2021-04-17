@@ -14,6 +14,10 @@
     font-display: swap
 }
 
+.collab{
+    margin-top: -90px;
+}
+
 .hidden {
     display: none !important
 }
@@ -1535,21 +1539,21 @@ picture.parallaxImage {
 
 @media only screen and (min-width:768px) {
     .clientsSection__logos {
-        width: 60%
+        width: 100%
     }
 }
 
 @media only screen and (min-width:960px) {
     .clientsSection__logos {
-        max-width: -webkit-calc(100% - 390px);
-        max-width: -moz-calc(100% - 390px);
-        max-width: calc(100% - 390px);
+        max-width: -webkit-calc(100% - 1px);
+        max-width: -moz-calc(100% - 1px);
+        max-width: calc(100% - 1px);
         padding-left: 50px
     }
 }
 
 .clientsSection__logo {
-    width: 33.3333%;
+    width: 20%;
     height: 50px;
     margin-bottom: 18px;
     display: -webkit-box;
