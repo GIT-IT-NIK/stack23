@@ -18,7 +18,7 @@ section{
 }
 
 .speakers{
-    background: url('../BackgroundX.jpg');
+    background: url('../Background.jpg');
     background-size: cover;
     font-family: 'Poppins', sans-serif;
     display: flex;

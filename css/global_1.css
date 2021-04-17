@@ -4020,8 +4020,9 @@ main {
 }
 
 .section__name:after {
+    color: white;
     content: '';
-    background: url("../images/circle-black.png") no-repeat;
+    background: url("../images/circle-white-large.png") no-repeat;
     -webkit-background-size: 9.5px 9px;
     -moz-background-size: 9.5px 9px;
     background-size: 9.5px 9px;
@@ -4041,7 +4042,8 @@ main {
 
 @media only screen and (min-width:960px) {
     .section__name:after {
-        background: url("../images/circle-black-large.png") no-repeat;
+        color: white;
+        background: url("../images/circle-white-large.png") no-repeat;
         -webkit-background-size: 11px 11px;
         -moz-background-size: 11px 11px;
         background-size: 11px 11px;

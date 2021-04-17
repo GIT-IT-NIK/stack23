@@ -13,8 +13,8 @@ section{
 }
 
 .teams{
-    background: url('../BackgroundX.jpg');
-    background-size: cover;
+    background: url('../BackgroundY.jpg');
+    background-size: contain ;
     font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: center;
