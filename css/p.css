@@ -18,11 +18,9 @@ section{
 }
 
 .speakers{
-    background:linear-gradient(to bottom, #263d49,#0d1318);
+    background: url('../Background.jpg');
+    background-size: cover;
     font-family: 'Poppins', sans-serif;
-}
-
-.speakers{
     display: flex;
     justify-content: center;
     align-items: center;
