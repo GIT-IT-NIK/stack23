@@ -3711,8 +3711,8 @@ https://flickity.metafizzy.co
 }
 
 .floatingImages__imageWrap {
-    height: 100%;
-    width: auto;
+    width: 100%;
+    height: auto;
     position: relative;
     -webkit-transform: translate(0, -270px);
     -moz-transform: translate(0, -270px);
@@ -3831,7 +3831,9 @@ https://flickity.metafizzy.co
 .floatingImages__imageWrap:nth-child(2),
 .floatingImages__imageWrap:nth-child(6),
 .floatingImages__imageWrap:nth-child(10),
-.floatingImages__imageWrap:nth-child(14) {
+.floatingImages__imageWrap:nth-child(14),
+.floatingImages__imageWrap:nth-child(18),
+.floatingImages__imageWrap:nth-child(22) {
     height: 74%;
     z-index: 9;
     -webkit-align-self: flex-end;
@@ -3843,7 +3845,9 @@ https://flickity.metafizzy.co
 .floatingImages__imageWrap:nth-child(3),
 .floatingImages__imageWrap:nth-child(7),
 .floatingImages__imageWrap:nth-child(11),
-.floatingImages__imageWrap:nth-child(15) {
+.floatingImages__imageWrap:nth-child(15),
+.floatingImages__imageWrap:nth-child(19),
+.floatingImages__imageWrap:nth-child(23) {
     height: 91%;
     -webkit-align-self: flex-start;
     -ms-flex-item-align: start;
@@ -3854,7 +3858,9 @@ https://flickity.metafizzy.co
 .floatingImages__imageWrap:nth-child(4),
 .floatingImages__imageWrap:nth-child(8),
 .floatingImages__imageWrap:nth-child(12),
-.floatingImages__imageWrap:nth-child(16) {
+.floatingImages__imageWrap:nth-child(16),
+.floatingImages__imageWrap:nth-child(20),
+.floatingImages__imageWrap:nth-child(24) {
     height: 62%;
     -webkit-align-self: center;
     -ms-flex-item-align: center;
@@ -3863,7 +3869,7 @@ https://flickity.metafizzy.co
 }
 
 .floatingImages__image {
-    width: 120%;
+    width: 80%;
     height: 100%;
     -o-object-fit: cover;
     object-fit: cover;
