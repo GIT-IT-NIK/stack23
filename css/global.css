@@ -3841,23 +3841,62 @@ html.has-scroll-dragging {
 
 .floatingImages__imageWrap:nth-child(15) {
     z-index: 2;
-    left: -410px
+    left: -420px
+}
+.floatingImages__imageWrap:nth-child(16) {
+    z-index: 2;
+    left: -450px
 }
 
+.floatingImages__imageWrap:nth-child(17) {
+    z-index: 2;
+    left: -480px
+}
+
+.floatingImages__imageWrap:nth-child(18) {
+    z-index: 2;
+    left: -510px
+}
+
+.floatingImages__imageWrap:nth-child(19) {
+    z-index: 2;
+    left: -540px
+}
+.floatingImages__imageWrap:nth-child(20) {
+    z-index: 2;
+    left: -570px
+}
+
+.floatingImages__imageWrap:nth-child(21) {
+    z-index: 2;
+    left: -600px
+}
+
+.floatingImages__imageWrap:nth-child(22) {
+    z-index: 2;
+    left: -630px
+}
+
+.floatingImages__imageWrap:nth-child(23) {
+    z-index: 2;
+    left: -660px
+}
 .floatingImages__imageWrap:nth-child(1),
 .floatingImages__imageWrap:nth-child(5),
-.floatingImages__imageWrap:nth-child(9),
-.floatingImages__imageWrap:nth-child(13) {
-    height: 62%;
+.floatingImages__imageWrap:nth-child(9)
+ {
+    height: 70%;
+    width: 40%;
     z-index: 5;
-    top: -30px
+    top: -100px
 }
 
 .floatingImages__imageWrap:nth-child(2),
 .floatingImages__imageWrap:nth-child(6),
 .floatingImages__imageWrap:nth-child(10),
 .floatingImages__imageWrap:nth-child(14) {
-    height: 74%;
+    height: 90%;
+    width: 40%;
     z-index: 9;
     -webkit-align-self: flex-end;
     -ms-flex-item-align: end;
@@ -3868,8 +3907,10 @@ html.has-scroll-dragging {
 .floatingImages__imageWrap:nth-child(3),
 .floatingImages__imageWrap:nth-child(7),
 .floatingImages__imageWrap:nth-child(11),
-.floatingImages__imageWrap:nth-child(15) {
-    height: 91%;
+.floatingImages__imageWrap:nth-child(16),
+.floatingImages__imageWrap:nth-child(13) {
+    height: 70%;
+    width: 30%;
     -webkit-align-self: flex-start;
     -ms-flex-item-align: start;
     align-self: flex-start;
@@ -3879,8 +3920,9 @@ html.has-scroll-dragging {
 .floatingImages__imageWrap:nth-child(4),
 .floatingImages__imageWrap:nth-child(8),
 .floatingImages__imageWrap:nth-child(12),
-.floatingImages__imageWrap:nth-child(16) {
+.floatingImages__imageWrap:nth-child(15) {
     height: 62%;
+    width: 38%;
     -webkit-align-self: center;
     -ms-flex-item-align: center;
     align-self: center;
@@ -3889,7 +3931,6 @@ html.has-scroll-dragging {
 
 .floatingImages__image {
     width: 100%;
-    height: 100%;
     -o-object-fit: cover;
     object-fit: cover;
     -o-object-position: top center;
