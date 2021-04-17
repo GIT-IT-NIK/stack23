@@ -1,6 +1,6 @@
 .register {
   font-family: 'Poppins', sans-serif; 
-  background:linear-gradient(to bottom, hsla(50, 100%, 67%, 0.952),rgba(255, 163, 71, 0.945))
+  background:lwhite;
 }
 
 .pricing-table-subtitle {
@@ -12,7 +12,6 @@
   margin-bottom: 68px; }
 
 .pricing-card {
-  border: 3px solid black;
   border-radius: 10px;
   margin-bottom: 40px;
   text-align: center;
