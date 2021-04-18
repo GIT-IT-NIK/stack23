@@ -1,108 +1,111 @@
-.speakers .max-width {
-  max-width: 1300px;
-  padding: 0 80px;
-  margin: auto;
+.speakers .max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
 }
 
-.speakers {
-  background: url("../images/Background.jpg");
-  background-size: cover;
-  font-family: "Poppins", sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  min-height: 100vh;
-  position: relative;
-  overflow-x: hidden;
+.speakers{
+    background: url('../Background.jpg');
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    position: relative;
+    overflow-x: hidden;
 }
 
-.speakers .team_container {
-  position: relative;
-  z-index: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  margin: 40px 0;
+.speakers .team_container{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px 0;
 }
 
-.speakers .team_container .card {
-  position: relative;
-  width: 350px;
-  height: 420px;
-  margin: 10px;
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
-  border-radius: 15px;
-  background: rgba(255, 255, 255, 0.05);
-  overflow: hidden;
-  display: flex;
-  color: #fff;
-  justify-content: center;
-  align-items: center;
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
-  border-left: 1px solid rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(5px);
+.speakers .team_container .card{
+    position: relative;
+    width: 350px;
+    height: 420px;
+    margin: 10px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.05);
+    overflow: hidden;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
 }
 
-.speakers .team_container .card .team_content {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  opacity: 1;
-  transition: 0.5s;
+.speakers .team_container .card .team_content{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 1;
+    transition: 0.5s;
 }
 
-.speakers .team_container .card .team_content .team_imgBx {
-  position: relative;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  overflow: hidden;
-  border: 10px solid rgba(0, 0, 0, 0.25);
-  margin-top: -130px;
+.speakers .team_container .card .team_content .team_imgBx{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 10px solid rgba(0,0,0,0.25);
+    margin-top: -30px;
 }
 
-.speakers .team_container .card .team_content .team_imgBx img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.speakers .team_container .card .team_content .team_imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-.speakers .team_container .card .team_content .team_contentBx h3 {
-  color: #fff;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-weight: 500;
-  font-size: 18px;
-  text-align: center;
-  margin: 20px 0 10px;
-  line-height: 1.1rem;
-  margin-bottom: 50px;
+.speakers .team_container .card .team_content .team_contentBx h3{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 0 10px;
+    line-height: 1.1rem;
+    margin-bottom: 50px;
 }
 
-.speakers .team_container .card .team_content .team_contentBx h3 span {
-  font-size: 1.3rem;
-  font-weight: 300;
-  text-transform: initial;
+.speakers .team_container .card .team_content .team_contentBx h3 span{
+    font-size: 1.3rem;
+    font-weight: 300;
+    text-transform: initial;
 }
 
-.speakers .team_container .card .team_sci {
-  position: absolute;
-  bottom: 50px;
-  display: flex;
-  margin-left: -4px;
+.speakers .team_container .card .team_sci{
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    margin-left: -4px;
 }
 
-.speakers .team_container .card .team_sci p {
-  margin: -30px 10px;
-  opacity: 1;
-  text-align: justify;
+.speakers .team_container .card .team_sci p{
+    margin: -10px 10px;
+    opacity: 1;
+    text-align: justify;
+}
+
+.fa-book-open {
+  color: white;
 }
 
 /* ======================================================================================== */
