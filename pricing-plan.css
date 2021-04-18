@@ -51,18 +51,19 @@
 .pricing-card .card-body {
     padding-top: 55px;
     padding-bottom: 62px; 
+    border-radius: 15px;
 }
 
 .pricing-plan-title {
   font-size: 20px;
-  color: #000;
+  color: rgb(255, 255, 255);
   margin-bottom: 11px;
   font-weight: normal; 
 }
 
 .pricing-plan-cost {
   font-size: 50px;
-  color: #000;
+  color: rgb(255, 255, 255);
   font-weight: bold;
   margin-bottom: 29px; 
 }
