@@ -2976,7 +2976,7 @@ html.has-scroll-dragging {
 
 .navDrawer {
     background: rgba(0, 0, 0, 0);
-    width: 100vw;
+    width: 30vw;
     height: 100vh;
     padding: 110px 25px 200px 25px;
     position: fixed;

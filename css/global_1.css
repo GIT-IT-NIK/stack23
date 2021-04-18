@@ -2949,8 +2949,8 @@ https://flickity.metafizzy.co
 
 .navDrawer {
     background: rgba(0, 0, 0, 0);
-    width: 100vw;
-    height: 100vh;
+    width: 20vw;
+    height: 60vw;
     padding: 110px 25px 200px 25px;
     position: fixed;
     top: 0;
