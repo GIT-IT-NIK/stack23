@@ -40,8 +40,7 @@
     color: #fff;
     justify-content: center;
     align-items: center;
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
-    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(5px);
 }
 
@@ -57,12 +56,12 @@
 
 .speakers .team_container .card .team_content .team_imgBx{
     position: relative;
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     overflow: hidden;
     border: 10px solid rgba(0,0,0,0.25);
-    margin-top: -130px;
+    margin-top: -30px;
 }
 
 .speakers .team_container .card .team_content .team_imgBx img{
@@ -100,9 +99,13 @@
 }
 
 .speakers .team_container .card .team_sci p{
-    margin: -30px 10px;
+    margin: -10px 10px;
     opacity: 1;
     text-align: justify;
+}
+
+.fa-book-open {
+  color: white;
 }
 
 /* ======================================================================================== */
