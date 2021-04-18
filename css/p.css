@@ -117,7 +117,7 @@
 
     display: flex;
 
-    height: 80vh;
+    height: 90vh;
 
 }
 
@@ -257,13 +257,14 @@
 
     z-index: 1;
 
-    text-align: center;
+    text-align: left;
 
-    margin: 0 1.618em;
+    margin: 0 1;
 
     top: 15%;
 
     opacity: 0;
+    padding-left: 5%;
 
 }
 
@@ -271,16 +272,11 @@
 
 .tl-content h1 {
 
-    font-family: 'Pathway Gothic One', Helvetica Neue, Helvetica, Arial, sans-serif;
-
-    text-transform: uppercase;
-
-    color: #1779cf;
-
-    font-size: 1.44rem;
-
-    font-weight: normal;
-
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    font-size: 2rem;
 }
 
 
