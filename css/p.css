@@ -293,6 +293,7 @@
     top: 10%;
 
     left: 50%;
+    transform: translateX(-50%);
 
     z-index: 1;
 
@@ -360,7 +361,6 @@
       font-size: 1.5rem;
   }
   .tl-year {
-    left: 40%;
     top: 5%;
 }
   
