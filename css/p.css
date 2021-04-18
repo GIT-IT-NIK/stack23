@@ -355,7 +355,11 @@
       margin: 0 1.618em;
         top: 20%;
         line-height: 2.5rem;
+        font-size: 1.3rem;
       opacity: 1;
+  }
+  .tl-content h1{
+      font-size: 1.5rem;
   }
   
 }
