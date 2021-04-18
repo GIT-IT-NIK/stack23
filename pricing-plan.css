@@ -8,8 +8,14 @@
 }
 
 .register {
-  font-family: 'Poppins', sans-serif; 
+  font-family: 'Kurla', sans-serif; 
   background:white;
+}
+
+.register .max-width{
+  max-width: 1300px;
+  padding: 0 23px;
+  margin-bottom: 100px;
 }
 
 .pricing-table-subtitle {
@@ -21,8 +27,7 @@
   margin-bottom: 68px; }
 
 .pricing-card {
-  border-radius: 10px;
-  margin-bottom: 40px;
+
   text-align: center;
   -webkit-transition: all 0.6s;
   transition: all 0.6s;
@@ -162,6 +167,7 @@
 @media (max-width: 690px) {    
       .register .max-width{
         padding: 0 23px;
+        margin-bottom: 100px;
     }
 }
 
@@ -169,6 +175,8 @@
 @media (max-width: 991px) {
     .register .max-width{
         padding: 0 50px;
+        margin-bottom: 100px;
 
     }
+}
 /*# sourceMappingURL=pricing-plan.css.map */

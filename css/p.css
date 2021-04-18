@@ -1,13 +1,13 @@
-.speakers .max-width {
+.speakers .max-width{
     max-width: 1300px;
     padding: 0 80px;
     margin: auto;
 }
 
-.speakers {
-    background: url("../images/Background.jpg");
+.speakers{
+    background: url('../images/Background.jpg');
     background-size: cover;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,7 @@
     overflow-x: hidden;
 }
 
-.speakers .team_container {
+.speakers .team_container{
     position: relative;
     z-index: 1;
     display: flex;
@@ -27,12 +27,12 @@
     margin: 40px 0;
 }
 
-.speakers .team_container .card {
+.speakers .team_container .card{
     position: relative;
     width: 350px;
     height: 420px;
     margin: 10px;
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
     border-radius: 15px;
     background: rgba(255, 255, 255, 0.05);
     overflow: hidden;
@@ -45,7 +45,7 @@
     backdrop-filter: blur(5px);
 }
 
-.speakers .team_container .card .team_content {
+.speakers .team_container .card .team_content{
     position: relative;
     display: flex;
     justify-content: center;
@@ -55,17 +55,17 @@
     transition: 0.5s;
 }
 
-.speakers .team_container .card .team_content .team_imgBx {
+.speakers .team_container .card .team_content .team_imgBx{
     position: relative;
     width: 150px;
     height: 150px;
     border-radius: 50%;
     overflow: hidden;
-    border: 10px solid rgba(0, 0, 0, 0.25);
+    border: 10px solid rgba(0,0,0,0.25);
     margin-top: -130px;
 }
 
-.speakers .team_container .card .team_content .team_imgBx img {
+.speakers .team_container .card .team_content .team_imgBx img{
     position: absolute;
     top: 0;
     left: 0;
@@ -74,7 +74,7 @@
     object-fit: cover;
 }
 
-.speakers .team_container .card .team_content .team_contentBx h3 {
+.speakers .team_container .card .team_content .team_contentBx h3{
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -86,20 +86,20 @@
     margin-bottom: 50px;
 }
 
-.speakers .team_container .card .team_content .team_contentBx h3 span {
+.speakers .team_container .card .team_content .team_contentBx h3 span{
     font-size: 1.3rem;
     font-weight: 300;
     text-transform: initial;
 }
 
-.speakers .team_container .card .team_sci {
+.speakers .team_container .card .team_sci{
     position: absolute;
     bottom: 50px;
     display: flex;
     margin-left: -4px;
 }
 
-.speakers .team_container .card .team_sci p {
+.speakers .team_container .card .team_sci p{
     margin: -30px 10px;
     opacity: 1;
     text-align: justify;
@@ -107,21 +107,30 @@
 
 /* ======================================================================================== */
 
-/* schedule ka css */
+                                    /* schedule ka css */
 
 /* ============================================================================================ */
 
+
+
 #timeline {
+
     display: flex;
 
-    height: 670px;
+    height: 90vh;
+
 }
 
+
+
 #timeline:hover .tl-item {
+
     width: 33.33%;
+
 }
 
 .tl-item {
+
     transform: translate3d(0, 0, 0);
 
     position: relative;
@@ -137,13 +146,18 @@
     overflow: hidden;
 
     transition: width 0.5s ease;
+
 }
 
+
+
 .tl-item:before,
+
 .tl-item:after {
+
     transform: translate3d(0, 0, 0);
 
-    content: "";
+    content: '';
 
     position: absolute;
 
@@ -154,20 +168,26 @@
     width: 100%;
 
     height: 100%;
+
 }
 
+
+
 .tl-item:after {
+
     background: rgba(3, 22, 37, 0.85);
 
     opacity: 1;
 
     transition: opacity 0.7s ease;
+
 }
 
+
+
 .tl-item:before {
-    background: linear-gradient(to bottom,
-            rgba(0, 0, 0, 0),
-            rgba(0, 0, 0, 1) 65%);
+
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0),rgba(0, 0, 0, 1) 65% );
 
     z-index: 1;
 
@@ -176,56 +196,93 @@
     transform: translate3d(0, 0, 0) translateY(50%);
 
     transition: opacity 0.7s ease, transform 0.7s ease;
+
 }
+
+
 
 .tl-item:hover {
+
     width: 60% !important;
+
 }
+
+
 
 .tl-item:hover:after {
+
     opacity: 0;
+
 }
 
+
+
 .tl-item:hover:before {
+
     opacity: 1;
 
     transform: translate3d(0, 0, 0) translateY(0);
 
     transition: opacity 1s ease, transform 1s ease 0.25s;
+
 }
 
+
+
 .tl-item:hover .tl-content {
+
     opacity: 1;
 
     transform: translateY(0);
 
     transition: all 0.75s ease 0.5s;
+
 }
+
+
 
 .tl-item:hover .tl-bg {
+
     filter: grayscale(0);
+
 }
+
+
 
 .tl-content {
+
     transform: translate3d(0, 0, 0) translateY(25px);
+
     position: relative;
+
     z-index: 1;
+
     text-align: left;
+
     margin: 0 1;
+
     top: 15%;
+
     opacity: 0;
     padding-left: 5%;
+
 }
 
+
+
 .tl-content h1 {
-    font-family: "Poppins", sans-serif;
+
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-style: normal;
     font-display: swap;
     font-size: 2rem;
 }
 
+
+
 .tl-year {
+
     position: absolute;
 
     padding-top: 2px;
@@ -241,47 +298,39 @@
     border-top: 1px solid #fff;
 
     border-bottom: 1px solid #fff;
+
 }
+
+
+
+
+
+.tl-year:after{
+
+}
+
+
 
 .tl-bg {
-    transform: translate3d(0, 0, 0);
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-size: cover;
-    background-position: center center;
-    transition: filter 0.5s ease;
-    filter: grayscale(100%);
-}
 
-@media only screen and (max-width: 700px) {
-    #timeline{
-      flex-direction : column 
-    }
-    .tl-item:hover {
-      width: 100% !important;
-  }
-    #timeline:hover .tl-item {
-      width: 100%;
-  }
-  .tl-item {
-      transform: translate3d(0, 0, 0);
-      position: relative;
-      width: 100%;
-      height: 100vh;
-      min-height: 600px;
-      color: #fff;
-      overflow: hidden;
-      transition: width 0.5s ease;
-  }
-    .tl-content {
-      transform: translate3d(0, 0, 0) translateY(25px);
-      position: relative;
-      z-index: 1;
-      text-align: center;
-      margin: 0 1.618em;
-      top: 15%;
-      opacity: 1;
-  }
+    transform: translate3d(0, 0, 0);
+
+    position: absolute;
+
+    width: 100%;
+
+    height: 100%;
+
+    top: 0;
+
+    left: 0;
+
+    background-size: cover;
+
+    background-position: center center;
+
+    transition: filter 0.5s ease;
+
+    filter: grayscale(100%);
+
+}
