@@ -353,6 +353,9 @@
       z-index: 1;
       text-align: left;
       margin: 0 1.618em;
-      top: 15%;
+        top: 20%;
+        line-height: 2.5rem;
       opacity: 1;
   }
+  
+}
