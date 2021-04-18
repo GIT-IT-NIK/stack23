@@ -5,7 +5,7 @@
 }
 
 .speakers{
-    background: url('../Background.jpg');
+    background: url('../images/Background1.jpg');
     background-size: cover;
     font-family: 'Poppins', sans-serif;
     display: flex;
