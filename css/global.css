@@ -3409,6 +3409,7 @@ html.has-scroll-dragging {
     -webkit-transition-delay: 0s;
     -moz-transition-delay: 0s;
     -o-transition-delay: 0s;
+    overflow-y: hidden;
     transition-delay: 0s
 }
 
