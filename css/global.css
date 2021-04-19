@@ -2978,7 +2978,7 @@ html.has-scroll-dragging {
 
 .navDrawer {
     background: rgba(0, 0, 0, 0);
-    width: 30vw;
+    width: 50vw;
     height: 100vh;
     padding: 110px 25px 200px 25px;
     position: fixed;
@@ -4282,7 +4282,8 @@ main {
 }
 
 .siteFooter__nav {
-    display: none
+    display: block;
+    margin-left: -30px;
 }
 
 @media only screen and (min-width:480px) {
@@ -4322,9 +4323,21 @@ main {
     }
 }
 
+.fa-at{
+    color: white;
+}
+
+.fa-phone{
+    color: white;
+}
+
 @media only screen and (min-width:960px) {
     .siteFooter__nav a:hover {
         color: #db3574
+    }
+
+    .siteFooter__nav li {
+        font-size: 2rem;
     }
 }
 
