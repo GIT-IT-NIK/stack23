@@ -4314,7 +4314,7 @@ main {
         font-weight: 500;
         font-style: normal;
         font-display: swap;
-        font-size: 1.3rem;
+        font-size: 1rem;
         text-transform: lowercase
     }
 
@@ -4375,6 +4375,20 @@ main {
         -moz-box-ordinal-group: 2;
         -ms-flex-order: 1;
         order: 1
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .siteFooter__nav{
+        margin-top: 60px;
+        margin-left: -120px;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .siteFooter__nav{
+        padding-top: 30px;
+        margin-left: -110px;
     }
 }
 
