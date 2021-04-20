@@ -45,7 +45,7 @@ function Redirect($url, $permanent = false)
             '$name','$phone','$gender','$ogname','$ieee_no','$member_type', '$wie_no', '$location')";
           
         if(mysqli_query($conn, $sql)){
-              redirect('checkout.php', false);
+              redirect('https://www.google.com', false);
             
 
         } else{
