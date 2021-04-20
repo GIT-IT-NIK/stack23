@@ -12,17 +12,6 @@ $member_type = $_POST["member_type"];
 $wie_no = $_POST["wie_no"];
 $location = $_POST["location"];
 
-
-echo $email."</br>";
-echo $name."</br>";
-echo $phone."</br>";
-echo $gender."</br>";
-echo $ogname."</br>";
-echo $ieee_no."</br>";
-echo $member_type."</br>";
-echo $wie_no."</br>";
-echo $location."</br>";
-
 $_SESSION['NAME']=$name;
 $_SESSION['EMAIL']=$email;
 $_SESSION['PHONE']=$phone;
