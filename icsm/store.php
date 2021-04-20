@@ -34,7 +34,7 @@ function Redirect($url, $permanent = false)
     exit();
 }
 
- $conn = mysqli_connect("us-cdbr-east-03.cleardb.com", "bb43ac196f9c5b", "e2c1f8bd", "users");
+ $conn = mysqli_connect("us-cdbr-east-03.cleardb.com", "bb43ac196f9c5b", "e2c1f8bd", "heroku_b860fd6b42d3963");
           
         if($conn === false){
             die("ERROR: Could not connect. " 
