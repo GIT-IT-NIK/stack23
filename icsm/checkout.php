@@ -22,8 +22,8 @@ $orderAmount = $_POST["amount"];
 //echo $orderId . "|" . $orderAmount;
 $host = "https://0461f3ccc57a.ngrok.io";
 //$host = "localhost";
-$notifyUrl = $host. "/Back-End/icsm/notify.php";
-$returnUrl = $host. "/Back-End/icsm/return.php";
+$notifyUrl = $host. "/icsm/notify.php";
+$returnUrl = $host. "/icsm/return.php";
 
 /*
 $email = $_POST["r_email"];
