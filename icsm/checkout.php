@@ -20,7 +20,7 @@ $orderId = $_POST["orderId"];
 $orderAmount = $_POST["amount"];
 
 //echo $orderId . "|" . $orderAmount;
-$host = "https://0461f3ccc57a.ngrok.io";
+$host = "https://stack23.herokuapp.com/";
 //$host = "localhost";
 $notifyUrl = $host. "/icsm/notify.php";
 $returnUrl = $host. "/icsm/return.php";
