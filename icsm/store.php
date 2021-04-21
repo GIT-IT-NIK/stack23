@@ -44,7 +44,7 @@ if(isset($_POST['submitX'])){
                     '$name','$phone','$gender','$ogname','$ieee_no','$member_type', '$wie_no', '$location')";
 
                 if(mysqli_query($conn, $sql)){
-                      redirect('https://www.google.com', false);
+                      redirect('checkout.php', false);
 
 
                 } else{
