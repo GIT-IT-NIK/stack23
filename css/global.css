@@ -4395,6 +4395,7 @@ main {
     }
     .siteFooter__add{
         margin: -45px 0 0 -100px;
+        line-height: 1.2rem;
     }
     .siteFooter__flexChild--artist {
         margin-top: -50px;
