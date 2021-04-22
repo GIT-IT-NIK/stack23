@@ -4338,8 +4338,10 @@ main {
     }
 
     .siteFooter__nav li {
-        font-size: 2rem;
-    }
+        font-size: 1.5rem;    }
+
+    .siteFooter__nav p {
+        font-size: 1.5rem;    }
 }
 
 @media only screen and (min-width:650px) {
@@ -4354,7 +4356,7 @@ main {
         -moz-box-pack: justify;
         -ms-flex-pack: justify;
         justify-content: space-between;
-        text-align: left
+        text-align: left;
     }
 }
 
@@ -4388,12 +4390,17 @@ main {
 
 @media only screen and (min-width: 1024px){
     .siteFooter__nav{
-        padding-top: 30px;
         margin-left: -110px;
-        margin-top: -100px;
+        margin-top: -50px;
+    }
+    .siteFooter__add{
+        margin: -45px 0 0 -100px;
     }
     .siteFooter__flexChild--artist {
         margin-top: -50px;
+    }
+    .siteFooter__flexChild--social{
+        margin-top: -50px
     }
 }
 
@@ -4540,6 +4547,15 @@ main {
     background-position: center center;
     width: 17.5px;
     height: 20px
+}
+
+.siteFooter__add{
+    color: #fff;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    font-size: 1.4rem
 }
 
 .siteFooter__legal {
