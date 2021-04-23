@@ -10,8 +10,8 @@ $orderId = $_POST["orderId"];
 $orderAmount = $_POST["amount"];
 
 $host = "https://stack23.herokuapp.com";
-$notifyUrl = $host. "/stack23/icsm/notify.php";
-$returnUrl = $host. "/stack23/icsm/return.php";
+$notifyUrl = $host. "/icsm/notify.php";
+$returnUrl = $host. "/icsm/return.php";
 
 $orderDetails = array();
 $orderDetails["notifyUrl"] = $notifyUrl;
