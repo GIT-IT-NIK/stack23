@@ -36,24 +36,24 @@
                     <form action="store.php" method="post">
                     	
                     	<div class="input-group">
-                            <input class="input--style-3" type="email" placeholder="Email address" name="email">
+                            <input class="input--style-3" type="email" placeholder="Email address" name="email" required>
                         </div>
                         
                         <div class="input-group">
-                            <input class="input--style-3" type="email" placeholder="Re-Enter Email address" name="r_email">
+                            <input class="input--style-3" type="email" placeholder="Re-Enter Email address" name="r_email" required>
                         </div>
                         
                         <div class="input-group">
-                            <input class="input--style-3" type="text" placeholder="Full Name" name="name">
+                            <input class="input--style-3" type="text" placeholder="Full Name" name="name" required>
                         </div>
                         
                         <div class="input-group">
-                            <input class="input--style-3" type="text" title="Error Message" pattern="[1-9]{1}[0-9]{9}" placeholder="Mobile No (With Country Code)" name="phone">
+                            <input class="input--style-3" type="text" title="Error Message" pattern="[1-9]{1}[0-9]{9}" placeholder="Mobile No (With Country Code)" name="phone" required>
                         </div>
                         
                         <div class="input-group">
                             <div class="rs-select2 js-select-simple select--no-search">
-                                <select name="gender">
+                                <select name="gender" required>
                                     <option disabled="disabled" selected="selected">Gender</option>
                                     <option>Male</option>
                                     <option>Female</option>
@@ -64,18 +64,18 @@
                         </div>
                         
                         <div class="input-group">
-                            <input class="input--style-3" type="text" placeholder="College/Organization Name" name="ogname">
+                            <input class="input--style-3" type="text" placeholder="College/Organization Name" name="ogname" required>
                         </div>
                         
                         
                         
                         <div class="input-group">
-                            <input class="input--style-3" type="text" placeholder="IEEE Membership Number" name="ieee_no">
+                            <input class="input--style-3" type="text" placeholder="IEEE Membership Number" name="ieee_no" required>
                         </div>
                         
                         <div class="input-group">
                             <div class="rs-select2 js-select-simple select--no-search">
-                                <select name="member_type">
+                                <select name="member_type" required>
                                     <option disabled="disabled" selected="selected">Membership Type</option>
                                     <option>Student Member</option>
                                     <option>Professional Member</option>
@@ -86,7 +86,7 @@
                         
                         <div class="input-group">
                             <div class="rs-select2 js-select-simple select--no-search">
-                                <select name="wie_no">
+                                <select name="wie_no" required>
                                     <option disabled="disabled" selected="selected">Are you an IEEE WIE member? </option>
                                     <option>Yes</option>
                                     <option>No</option>
@@ -96,7 +96,7 @@
                         </div>
                         
                         <div class="input-group">
-                            <input class="input--style-3" type="text" placeholder="Enter your IEEE Section (Location):" name="location">
+                            <input class="input--style-3" type="text" placeholder="Enter your IEEE Section (Location):" name="location" required>
                         </div>
                         
                         
@@ -124,4 +124,3 @@
 </body>
 
 </html>
-
