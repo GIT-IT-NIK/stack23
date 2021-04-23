@@ -17,17 +17,17 @@ if($txStatus == "SUCCESS")
 {
 	if ($signature == $computedSignature){
    		//echo "<h1>Your order is successfully confirmed!</h1>";
-   		header("refresh:1;url=https://stack23.herokuapp.com/im/Landing_Page.html");
+   		header("refresh:1;url=https://www.ieeestack.com/im/Landing_Page.html");
 	}
 	else {
    		//echo "<h1>Something went wrong</h1>";
-   		header("refresh:1;url=https://stack23.herokuapp.com/im/Failed.html");
+   		header("refresh:1;url=https://www.ieeestack.com/im/Failed.html");
 	} 
  }
  
 else{
 	//echo $txStatus."</br>";
-	header("refresh:1;url=https://stack23.herokuapp.com/im/Failed.html");
+	header("refresh:1;url=https://www.ieeestack.com/im/Failed.html");
 } 
 
 
