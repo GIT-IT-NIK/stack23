@@ -8,7 +8,7 @@ $pvalue = $_SESSION['PHONE'];
 $orderId = $_POST["orderId"];
 $orderAmount = $_POST["amount"];
 
-$host = "https://stack23.herokuapp.com";
+$host = "https://www.ieeestack.com";
 $notifyUrl = $host. "/im0/notify.php";
 $returnUrl = $host. "/im0/return.php";
 
