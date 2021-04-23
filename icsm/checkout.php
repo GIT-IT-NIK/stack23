@@ -1,39 +1,17 @@
 <?php
 session_start();
-/*
-include 'store.php';
-echo $email."</br>";
-echo $name."</br>";
-echo $phone."</br>";
-echo $gender."</br>";
-echo $ogname."</br>";
-echo $ieee_no."</br>";
-echo $member_type."</br>";
-echo $wie_no."</br>";
-echo $location."</br>";*/
 
 $nvalue = $_SESSION['NAME'];
 $evalue = $_SESSION['EMAIL'];
 $pvalue = $_SESSION['PHONE'];
 
+
 $orderId = $_POST["orderId"];
 $orderAmount = $_POST["amount"];
 
-//echo $orderId . "|" . $orderAmount;
-$host = "https://stack23.herokuapp.com/";
-//$host = "localhost";
-$notifyUrl = $host. "/icsm/notify.php";
-$returnUrl = $host. "/icsm/return.php";
-
-/*
-$email = $_POST["r_email"];
-$name = $_POST["name"];
-$phone = $_POST["phone"];
-
-echo $name."</br>";
-echo $email."</br>";
-echo $phone."</br>";
-*/
+$host = "https://stack23.herokuapp.com";
+$notifyUrl = $host. "/stack23/icsm/notify.php";
+$returnUrl = $host. "/stack23/icsm/return.php";
 
 $orderDetails = array();
 $orderDetails["notifyUrl"] = $notifyUrl;
