@@ -62,7 +62,7 @@ function getUserDetails($orderId) {
 function getOrderDetails($orderId) {
   return array(
     "orderId" => time(),
-    "orderAmount" => "100",
+    "orderAmount" => "1",
     "orderNote" => "test order",
     "orderCurrency" => "INR"
   );
