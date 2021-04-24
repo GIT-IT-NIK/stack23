@@ -17,6 +17,9 @@ if(isset($_POST['submitX'])){
         $_SESSION['NAME']=$name;
         $_SESSION['EMAIL']=$email;
         $_SESSION['PHONE']=$phone;
+        
+        date_default_timezone_set('Asia/Kolkata');
+	$date = date('Y/m/d H:i:s');
 
         function Redirect($url, $permanent = false)
         {
@@ -33,7 +36,7 @@ if(isset($_POST['submitX'])){
                 }
 
                 $sql = "INSERT INTO users  VALUES ('$email', 
-                    '$name','$phone','$gender','$ogname','$ieee_no','$member_type', '$wie_no', '$location')";
+                    '$name','$phone','$gender','$ogname','$ieee_no','$member_type', '$wie_no', '$location', '$date')";
                 
 
                 if(mysqli_query($conn, $sql)){
