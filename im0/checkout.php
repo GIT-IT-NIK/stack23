@@ -5,13 +5,13 @@ $nvalue = $_SESSION['NAME'];
 $evalue = $_SESSION['EMAIL'];
 $pvalue = $_SESSION['PHONE'];
 
-
 $orderId = $_POST["orderId"];
 $orderAmount = $_POST["amount"];
 
 $host = "https://www.ieeestack.com";
-$notifyUrl = $host. "/icsm/notify.php";
-$returnUrl = $host. "/icsm/return.php";
+$notifyUrl = $host. "/im0/notify.php";
+$returnUrl = $host. "/im0/return.php";
+
 
 $orderDetails = array();
 $orderDetails["notifyUrl"] = $notifyUrl;
@@ -63,7 +63,7 @@ function getUserDetails($orderId) {
 function getOrderDetails($orderId) {
   return array(
     "orderId" => time(),
-    "orderAmount" => "50",
+    "orderAmount" => "150",
     "orderNote" => "test order",
     "orderCurrency" => "INR"
   );

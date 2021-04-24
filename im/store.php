@@ -1,6 +1,4 @@
 <?php
-
-
 if(isset($_POST['submitX'])){
         session_start();
 
@@ -21,7 +19,6 @@ if(isset($_POST['submitX'])){
         function Redirect($url, $permanent = false)
         {
             header('Location: ' . $url, true, $permanent ? 301 : 302);
-
             exit();
         }
 
@@ -34,7 +31,6 @@ if(isset($_POST['submitX'])){
 
                 $sql = "INSERT INTO users  VALUES ('$email', 
                     '$name','$phone','$gender','$ogname','$ieee_no','$member_type', '$wie_no', '$location')";
-                
 
                 if(mysqli_query($conn, $sql)){
                       redirect('checkout.php', false);
@@ -44,7 +40,6 @@ if(isset($_POST['submitX'])){
                     echo "ERROR: Hush! Sorry $sql. " 
                         . mysqli_error($conn);
                 }
-
 
                 mysqli_close($conn);
         }

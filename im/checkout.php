@@ -10,8 +10,8 @@ $orderId = $_POST["orderId"];
 $orderAmount = $_POST["amount"];
 
 $host = "https://www.ieeestack.com";
-$notifyUrl = $host. "/icsm/notify.php";
-$returnUrl = $host. "/icsm/return.php";
+$notifyUrl = $host. "/im/notify.php";
+$returnUrl = $host. "/im/return.php";
 
 $orderDetails = array();
 $orderDetails["notifyUrl"] = $notifyUrl;
@@ -48,7 +48,6 @@ function generateSignature($postData){
 }
 
 
-
 function getUserDetails($orderId) {
 	global $nvalue;
 	global $evalue;
@@ -63,7 +62,7 @@ function getUserDetails($orderId) {
 function getOrderDetails($orderId) {
   return array(
     "orderId" => time(),
-    "orderAmount" => "50",
+    "orderAmount" => "100",
     "orderNote" => "test order",
     "orderCurrency" => "INR"
   );

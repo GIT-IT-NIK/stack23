@@ -1,6 +1,4 @@
 <?php
-
-
 if(isset($_POST['submitX'])){
         session_start();
 
@@ -9,10 +7,10 @@ if(isset($_POST['submitX'])){
         $phone = $_POST["phone"];
         $gender = $_POST["gender"];
         $ogname = $_POST["ogname"];
-        $ieee_no = $_POST["ieee_no"];
-        $member_type = $_POST["member_type"];
-        $wie_no = $_POST["wie_no"];
-        $location = $_POST["location"];
+        $ieee_no = null;
+	$member_type = null;
+	$wie_no = null;
+	$location = null;
 
         $_SESSION['NAME']=$name;
         $_SESSION['EMAIL']=$email;
@@ -34,7 +32,6 @@ if(isset($_POST['submitX'])){
 
                 $sql = "INSERT INTO users  VALUES ('$email', 
                     '$name','$phone','$gender','$ogname','$ieee_no','$member_type', '$wie_no', '$location')";
-                
 
                 if(mysqli_query($conn, $sql)){
                       redirect('checkout.php', false);
