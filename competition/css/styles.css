@@ -41,7 +41,7 @@ html.has-scroll-dragging {
     box-shadow: 8px 8px 0px rgb(3, 117, 121), -8px -8px 0px rgba(142, 228, 5, 0.788);
 }
 
-.know-box{
+.k-box{
     align-items: center;
     padding-left: 25%;
     margin-top: 4rem;
@@ -1634,7 +1634,7 @@ html {
 
 @media (max-width: 800px) {
 
-    .know-box{
+    .k-box{
         align-items: center;
         padding-left: 30%;
         margin-top: 4rem;
