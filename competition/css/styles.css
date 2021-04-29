@@ -41,11 +41,27 @@ html.has-scroll-dragging {
     box-shadow: 8px 8px 0px rgb(3, 117, 121), -8px -8px 0px rgba(142, 228, 5, 0.788);
 }
 
-.k-box{
-    align-items: center;
-    padding-left: 25%;
-    margin-top: 4rem;
+.button3 {
+    color: #f6f6f6;
+    padding: 5px;
+    font-family: "AK1", sans-serif;
+    font-size: 2.5rem;
+    border: rgb(9, 116, 116) 2px solid;
+    overflow: hidden;
+    -webkit-transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+    -moz-transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+    -o-transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+    transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+    cursor: pointer;
+    box-shadow: 0px 0px 0px #fff;
+    margin-left: 25%;
 }
+.button3:hover {
+    text-shadow: 0px 8px 6px rgba(0, 0, 0, 0.9);
+    box-shadow: 8px 8px 0px rgb(3, 117, 121), -8px -8px 0px rgba(142, 228, 5, 0.788);
+}
+
+
 
 
 /* ==================================================================================== */
@@ -1633,11 +1649,26 @@ html {
 }
 
 @media (max-width: 800px) {
-
-    .k-box{
-        align-items: center;
-        padding-left: 30%;
-        margin-top: 4rem;
+    
+    .button3 {
+        color: #f6f6f6;
+        font-family: "AK1", sans-serif;
+        font-size: 2rem;
+        background-color: rgb(5, 58, 58);
+        overflow: hidden;
+        -webkit-transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+        -moz-transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+        -o-transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+        transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+        cursor: pointer;
+        box-shadow: 0px 0px 0px #fff;
+        text-shadow: 0px 8px 6px rgba(0, 0, 0, 0.9);
+        box-shadow: 8px 8px 0px rgb(3, 117, 121), -8px -8px 0px rgba(142, 228, 5, 0.788);
+        margin-left: 25%;
+    }
+    .button3:hover {
+        text-shadow: 0px 8px 6px rgba(0, 0, 0, 0.9);
+        box-shadow: 8px 8px 0px rgb(3, 117, 121), -8px -8px 0px rgba(142, 228, 5, 0.788);
     }
     
     .button2 {
