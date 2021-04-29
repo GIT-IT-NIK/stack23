@@ -41,6 +41,13 @@ html.has-scroll-dragging {
     box-shadow: 8px 8px 0px rgb(3, 117, 121), -8px -8px 0px rgba(142, 228, 5, 0.788);
 }
 
+.know-box{
+    align-items: center;
+    padding-left: 25%;
+    margin-top: 4rem;
+}
+
+
 /* ==================================================================================== */
 
 .has-scroll-smooth [data-scroll-container] {
@@ -1627,6 +1634,12 @@ html {
 
 @media (max-width: 800px) {
 
+    .know-box{
+        align-items: center;
+        padding-left: 30%;
+        margin-top: 4rem;
+    }
+    
     .button2 {
         color: #f6f6f6;
         font-family: "AK1", sans-serif;
